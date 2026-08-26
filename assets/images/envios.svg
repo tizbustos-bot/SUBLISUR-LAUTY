@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Envíos a todo el país">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22B8E6"/>
+      <stop offset="1" stop-color="#2FB84A"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22B8E6" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#2FB84A" stop-opacity="0.16"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#ffffff"/>
+  <rect width="800" height="500" fill="url(#soft)"/>
+  <circle cx="400" cy="210" r="120" fill="#ffffff"/>
+  <circle cx="400" cy="210" r="120" fill="none" stroke="url(#g)" stroke-width="6"/>
+  <text x="50%" y="210" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="110" text-anchor="middle" dominant-baseline="central">📦</text>
+  <text x="50%" y="360" font-family="Poppins, Segoe UI, sans-serif" font-weight="700" font-size="34" fill="#2b2b3a" text-anchor="middle">Envíos a todo el país</text>
+  <g transform="translate(400 410)">
+    <rect x="-150" y="-22" width="300" height="44" rx="22" fill="url(#g)"/>
+    <text x="0" y="1" font-family="Poppins, Segoe UI, sans-serif" font-weight="600" font-size="18" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Reemplazar por foto real</text>
+  </g>
+</svg>

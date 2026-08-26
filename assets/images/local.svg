@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700" role="img" aria-label="Nuestro local">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E5BE6"/>
+      <stop offset="1" stop-color="#7B2FF7"/>
+    </linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E5BE6" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#7B2FF7" stop-opacity="0.16"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="700" fill="#ffffff"/>
+  <rect width="700" height="700" fill="url(#soft)"/>
+  <circle cx="350" cy="310" r="120" fill="#ffffff"/>
+  <circle cx="350" cy="310" r="120" fill="none" stroke="url(#g)" stroke-width="6"/>
+  <text x="50%" y="310" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="110" text-anchor="middle" dominant-baseline="central">🏬</text>
+  <text x="50%" y="460" font-family="Poppins, Segoe UI, sans-serif" font-weight="700" font-size="34" fill="#2b2b3a" text-anchor="middle">Nuestro local</text>
+  <g transform="translate(350 510)">
+    <rect x="-150" y="-22" width="300" height="44" rx="22" fill="url(#g)"/>
+    <text x="0" y="1" font-family="Poppins, Segoe UI, sans-serif" font-weight="600" font-size="18" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Reemplazar por foto real</text>
+  </g>
+</svg>
